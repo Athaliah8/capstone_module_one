@@ -1,0 +1,23 @@
+{
+  "name": "capstone_module_one",
+  "version": "1.0.0",
+  "description": "Microverse Week 5 -Capstone Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Athaliah8/capstone_module_one.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Athaliah8/capstone_module_one/issues"
+  },
+  "homepage": "https://github.com/Athaliah8/capstone_module_one#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
+}
