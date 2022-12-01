@@ -31,6 +31,14 @@ I have followed the [design](https://www.behance.net/gallery/29845175/CC-Global-
 
 ![design](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4352c344-6034-4a4c-84c3-e062937d1c49%2FScreen_Shot_2020-01-27_at_11.57.48.png?table=block&id=5b4779ff-e6dc-464d-bd96-fb0b4d040ef8&width=2470&userId=&cache=v2)
 
+Pictures used are from pexels from the following:
+
+Cottonbro
+Cristiano Silva
+Lucas Pezeta
+Muhammaftaha Ibrahim
+Nina
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
