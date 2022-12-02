@@ -2,6 +2,7 @@
   font-family: Cocogoose;
   src: url('../assets/fonts/cocogoose/Cocogoose Pro-trial.ttf');
 }
+
 html,
 body,
 input,
@@ -28,7 +29,8 @@ h1 {
   font-size: 5vw;
 }
 
-h2,h3{
+h2,
+h3 {
   font-family: 'Cocogoose', sans-serif;
   font-size: 3vw;
 }
@@ -93,8 +95,7 @@ p {
 .image-effect {
   background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("./images/red.jfif");
   background-repeat: repeat;
-  background-clip: text;
--webkit-background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
@@ -141,13 +142,11 @@ p {
 .welcome-description {
   background-color: #f7f7f7;
   border: 3px solid rgb(255, 255, 255);
-    background-color: var(--background);
-    padding: 20px;
-    margin: 20px 0;
-    font-weight: var(--weight);
-    font-size: 0.99rem;
-    line-height: 30px;
-
+  padding: 20px;
+  margin: 20px 0;
+  font-weight: var(--weight);
+  font-size: 0.99rem;
+  line-height: 30px;
 }
 
 .main-program {
@@ -250,7 +249,6 @@ p {
   background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
   background-size: cover;
 }
-
 
 @media screen and (min-width: 768px) {
   .steps p {
