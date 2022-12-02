@@ -7,9 +7,9 @@
 ## Built With
 
 - HTML
-- CSS (Flex and media queries)
+- CSS 
 - Bootstrap
--Linters
+- Linters
 
 ## Live Demo
 
@@ -33,10 +33,10 @@ I have followed the [design](https://www.behance.net/gallery/29845175/CC-Global-
 
 Pictures used are from pexels from the following:
 
-Cottonbro
-Cristiano Silva
-Lucas Pezeta
-Muhammaftaha Ibrahim
+Cottonbro,
+Cristiano Silva,
+Lucas Pezeta,
+Muhammaftaha Ibrahim,
 Nina
 
 ## 🤝 Contributing

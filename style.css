@@ -1,27 +1,40 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url('../assets/fonts/cocogoose/Cocogoose Pro-trial.ttf');
+}
+html,
+body,
+input,
+button,
+ul,
+li,
+a {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+  list-style: none;
+}
+
 body {
   font-family: 'Lato', sans-serif;
 }
 
 h1 {
-  font-size: 4rem;
-  font-weight: 700;
-  font-family: 'Cocogoose', sans-serif;
-}
-
-h2 {
-  font-family: 'Cocogoose', sans-serif;
-}
-
-h3 {
   font-size: 5vw;
+}
+
+h2,h3{
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 3vw;
 }
 
 img {
   width: 100px;
-}
-
-.tickets-title {
-  font-size: 20px;
 }
 
 a {
@@ -53,7 +66,6 @@ p {
 .hr-title {
   border: 1px solid #ec5242;
   width: 10%;
-  margin: auto;
 }
 
 .hr-speakers {
@@ -74,12 +86,15 @@ p {
   padding-bottom: 4px;
 }
 
-/* slider section */
+.logo img {
+  border-radius: 8px;
+}
 
 .image-effect {
-  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url(https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=725&q=80);
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("./images/red.jfif");
   background-repeat: repeat;
-  /* -webkit-background-clip: text; */
+  background-clip: text;
+-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
@@ -97,7 +112,7 @@ p {
 
 .slider {
   background: #f8f8f8;
-  background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 1)), url("https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=725&q=80");
+  background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 1)), url("./images/kaap.jfif");
   background-size: cover;
 }
 
@@ -125,10 +140,15 @@ p {
 
 .welcome-description {
   background-color: #f7f7f7;
-  border: 2px solid #fff;
-}
+  border: 3px solid rgb(255, 255, 255);
+    background-color: var(--background);
+    padding: 20px;
+    margin: 20px 0;
+    font-weight: var(--weight);
+    font-size: 0.99rem;
+    line-height: 30px;
 
-/* main-program section */
+}
 
 .main-program {
   background-image: linear-gradient(rgba(40, 43, 50, 0.9), rgba(40, 43, 50, 0.9)), url("https://images.assetsdelivery.com/compings_v2/floralset/floralset1905/floralset190500161.jpg");
@@ -143,15 +163,11 @@ p {
   border: 2px solid #fff;
 }
 
-/* speakers section */
-
 .speaker-avatar {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
-/* sponars section */
 
 .partners-section {
   background-color: #414246;
@@ -174,7 +190,7 @@ p {
   filter: contrast(5);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .partners {
     width: 90%;
   }
@@ -225,8 +241,6 @@ p {
   }
 }
 
-/* past section */
-
 .previous div:nth-child(1) {
   background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80");
   background-size: cover;
@@ -237,12 +251,6 @@ p {
   background-size: cover;
 }
 
-/* tickets section */
-
-.bg-table {
-  background: url("https://thumbs.dreamstime.com/b/air-mail-letter-vector-post-stamp-airmail-frame-postcard-blue-red-stripes-pattern-mockup-template-envelope-white-background-185936206.jpg") no-repeat;
-  background-size: cover;
-}
 
 @media screen and (min-width: 768px) {
   .steps p {
@@ -255,7 +263,7 @@ p {
   }
 
   .slider-about .welcome-description {
-    width: 50%;
+    width: 90%;
     margin: auto;
   }
 
@@ -278,149 +286,3 @@ p {
     margin: 2px;
   }
 }
-
-.image-effect {
-    background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("./images/red.jfif");
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
-    -webkit-font-smoothing: antialiased;
-  }
-  
-  .nav-small {
-    font-size: 3rem;
-    top: 15%;
-    left: 5%;
-  }
-  
-  
-  .campaign {
-    border: 5px solid #ec5242;
-  }
-  
-  .slider {
-    background: #f8f8f8;
-    background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 1)), url("./images/kaap.jfif");
-    background-size: cover;
-  }
-  
-  .slider-about {
-    background: #f8f8f8;
-    background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 1));
-    background-size: cover;
-  }
-  
-  .red {
-    color: #ec5242;
-  }
-  
-  .bg-red {
-    background-color: #ec5242;
-  }
-  
-  .bg-dark-light-custom {
-    background-color: rgba(143, 143, 143, 0.5);
-  }
-  
-  .bg-dark {
-    justify-content: flex-end;
-    
-  }
-  a{
-    color:#fff;
-  }
-  
-  .welcome-description {
-    background-color: #f7f7f7;
-    border: 2px solid #fff;
-  }
-  
-  .main-program {
-    background-image: linear-gradient(rgba(40, 43, 50, 0.9), rgba(40, 43, 50, 0.9)), url("https://images.assetsdelivery.com/compings_v2/floralset/floralset1905/floralset190500161.jpg");
-    background-size: cover;
-  }
-  
-  .main-program i {
-    font-size: 3rem;
-  }
-  
-  .program-block:hover {
-    border: 2px solid #fff;
-  }
-
-  .speaker-avatar {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    }
-    
-
-    .partners {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-      }
-      
-      .partners figure {
-        margin: 2rem;
-      }
-      
-      .partners img {
-        filter: contrast(5);
-      }
-      
-      @media screen and (max-width: 768px) {
-        .partners {
-          width: 90%;
-        }
-      
-        .program .section-subtitle {
-          font-size: 1.2rem;
-          text-align: center;
-        }
-      
-        .program i {
-          font-size: 2rem;
-        }
-      }
-      
-      @media screen and (max-width: 320px) {
-        tr {
-          display: flex;
-          flex-wrap: wrap;
-          width: 100%;
-        }
-      
-        td {
-          display: block;
-          width: 50%;
-          text-align: center;
-        }
-      
-        td[colspan] {
-          width: 100%;
-        }
-      
-        th {
-          width: 100%;
-        }
-      
-        .hr-speakers {
-          display: none;
-        }
-      
-        .speakers .row,
-        #demo .row {
-          display: block;
-          text-align: center;
-        }
-      
-        .speaker-block {
-          margin: auto;
-        }
-      }
-      
