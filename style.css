@@ -25,14 +25,32 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-h1 {
-  font-size: 5vw;
+h2 {
+  padding-top: 40px;
+  font-size: 3vw;
+  margin-left: 7rem;
 }
 
-h2,
-h3 {
+h1 {
   font-family: 'Cocogoose', sans-serif;
-  font-size: 3vw;
+  font-size: 5vw;
+  margin-left: 7rem;
+}
+
+.text {
+  margin-left: 7rem;
+}
+
+h4 {
+  border: 3px solid rgb(255 255 255);
+  background-color: var(--background);
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  line-height: 30px;
+  margin-left: 7rem;
 }
 
 img {
@@ -49,6 +67,10 @@ a:hover {
 
 a:active {
   color: #ec5242;
+}
+
+.end {
+  margin-left: 7rem;
 }
 
 p {
@@ -147,6 +169,7 @@ p {
   font-weight: var(--weight);
   font-size: 0.99rem;
   line-height: 30px;
+  margin-left: 7rem;
 }
 
 .main-program {
@@ -189,7 +212,7 @@ p {
   filter: contrast(5);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .partners {
     width: 90%;
   }
@@ -204,7 +227,7 @@ p {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   tr {
     display: flex;
     flex-wrap: wrap;

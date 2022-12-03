@@ -11,6 +11,14 @@
 - Bootstrap
 - Linters
 
+### Prerequisites
+A code complier and vscode would work great.
+
+### Setup
+- Open Github and navigate to the main page of the repository. 
+- Under the repo name click clone Copy the url for repository Go to your ide(editor) and in the terminal - git clone
+
+
 ## Live Demo
 
 [Live Demo Link]()
