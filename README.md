@@ -35,7 +35,6 @@
 
 - HTML
 - CSS 
-- Bootstrap
 - Linters
 - Javascript
 
