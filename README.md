@@ -57,7 +57,7 @@
 > Add a link to your deployed project.
 
 - [Live Demo Link](https://athaliah8.github.io/capstone_module_one/)
-- [Presentation Link](https://www.loom.com/share/3537354ccef44960837636ae45c3bcf2)
+- [Presentation Link](https://www.loom.com/share/753de963680f49928b90d777c585fb73)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
