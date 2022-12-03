@@ -1,396 +1,204 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta property="og:image" content="./deskimg.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/cb6c5078b1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
     <title>Women In Tech</title>
-    <link rel="icon" href="https://img-a.udemycdn.com/course/240x135/3380132_0287_2.jpg?FyhZmUoQPie5OnRsiTnyOZsiC_sIEow_xOT0VH5Mm79l7I8ZOuTxapTAeMQbvhXfITlHKUVsAq4DpFELGnXU97g-ccpNYdMGSX6efVHZeZ2Az8cx3bjR9FwHzK1WqzIr">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d86848cfe0.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+   
     <header>
-      <!--navbars-->
-      <div class="d-none d-md-block">
-        <nav class="navbar navbar-expand-sm bg-dark-custom text-white pt-0 pb-0">
+      <div class="top-section">
+          <ul class="bars">
+            <li>
+              <i class="fab fa-facebook-f"></i>
+            </li>
+            <li>
+              <i class="fab fa-twitter"></i>
+            </li>
+            <li>
+              <h4>English</h4>
+            </li>
+            <li>
+              <h4>My Page</h4>
+            </li>
+            <li>
+              <h4>Logout</h4>
+            </li>
+          </ul>
+        </div>
+      <div class="navbar">
+        <div class="logo-DT">
+          <a href="index.html"
+            ><img src="./images/Women In Tech.png" alt="Logo" class="plane"
+          /></a>
+          <div class="menu-bar nav" id="menu">
+            <i class="fas fa-bars fa-3x"></i>
+          </div>
+          <div class="cancel" id="close">
+            <p>&times;</p>
+          </div>
+        </div>
 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  English
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  My Page
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Logout
-                </a>
-              </li>
-            </ul>
-        </nav>
-        <nav class="navbar navbar-expand-sm bg-white text-dark pt-0 pb-0">
-            <a class="navbar-brand p-0 m-0" href="./index.html">
-              <figure class="logo m-0">
-                <img class="img-fluid" src="./images/Women In Tech.png" alt="Logo">
-             
-              </figure>
-            </a>
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item pr-4 pl-4">
-                <a class="nav-link red" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item pr-4 pl-4">
-                <a class="nav-link" href="./about.html">
-                  Agenda
-                </a>
-              </li>
-              <li class="nav-item pr-4 pl-4">
-                <a class="nav-link" href="#">
-                  Speakers
-                </a>
-              </li>
-              <li class="nav-item pr-4 pl-4">
-                <a class="nav-link" href="#">
-                  Blog
-                </a>
-              </li>
-              <li class="nav-item pr-4 pl-4">
-                <a class="nav-link" href="#">
-                  Sponsorship
-                </a>
-              </li>
-              <li class="nav-item pr-4 pl-4">
-                <a class="nav-link" href="#">
-                  FAQs
-                </a>
-              </li>
-              <li class="nav-item pr-4 pl-4 red campaign">
-                <a class="nav-link" href="#">
-                  Register Interest
-                </a>
-              </li>
-            </ul>
+        <nav class="menu-list" id="nav-mobile">
+          <ul class="items">
+            <li class="home">
+              <a href="index.html">Home</a>
+            </li>
+
+            <li class="links">
+              <a href="about.html">About</a>
+            </li>
+            <li class="links">
+              <a href="#">Program</a>
+            </li>
+            <li class="lgitinks">
+              <a href="#">Join</a>
+            </li>
+            <li class="links">
+              <a href="#">Sponsor</a>
+            </li>
+            <li class="links">
+              <a href="#">News</a>
+            </li>
+          </ul>
+
+          <div class="company">
+            <a href="index.html">Register Interest</a>
+          </div>
         </nav>
       </div>
     </header>
 
-    <main>
-      <!--jumbotron section-->
-      <section class="container-fluid jumbotron slider mb-0 pl-0 pr-0">
-        <div class="row">
-
-          <!--bars for small screens-->
-          <div class="pt-0 nav-small d-block d-md-none navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent1">
-            <i class="fas fa-bars"></i>
-          </div>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item pr-4 pl-4">
-                <a class="nav-link red" href="./index.html">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item pr-4 pl-4">
-                <a class="nav-link" href="./about.html">
-                 Agenda
-                </a>
-              </li>
-              <li class="nav-item pr-4 pl-4">
-                <a class="nav-link" href="#">
-                 Speakers
-                </a>
-              </li>
-              <li class="nav-item pr-4 pl-4">
-                <a class="nav-link" href="#">
-                  Blog
-                </a>
-              </li>
-              <li class="nav-item pr-4 pl-4">
-                <a class="nav-link" href="#">
-                  Sponsorship
-                </a>
-              </li>
-              <li class="nav-item pr-4 pl-4">
-                <a class="nav-link" href="#">
-                  FAQs
-                </a>
-              </li>
-              <li class="nav-item pr-4 pl-4 red campaign">
-                <a class="nav-link" href="#">
-                  Register Interest
-                </a>
-              </li>
-            </ul>
-            <!-- Links -->
-
-          </div>
-          <!-- Collapsible content -->
-
-
-          <div class="welcome-text col-12 pt-5 mt-5 pr-50">
-            <h2 class="text-left red">"Hello World!"</h2>
-            <h1 class="image-effect text-uppercase text-left font-weight-bold red">The Women In<br> Tech Conference<br> 2022</h1>
-          </div>
-
-          <div class="col-12 mt-4 mb-4">
-            <h4 class="p-4 welcome-description">
-              A one-day, in-person tech event for women. Find community, share your story, 
+    <section class="section-one">
+      <div class="section-one-container">
+        <h2 class="intro">
+          "Hello World!"
+        </h2>
+        <h1 class="heading">The Women In Tech Conference 2022</h1>
+        <div class="paragraph1">
+          <p>
+            A one-day, in-person tech event for women. Find community, share your story, 
           sharpen your skills and learn how to thrive in tech. 
-          We need you here.
-            </h4>
+          We need you here."
+          </p>
+        </div>
+        <div class="date">
+          <h3>2022.09.22(THRU)~24(WED)</h3>
+          <p class="venue">@ Ysterplaat Bowl in Milnerton</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-two" id="program">
+      <div class="section-two-container">
+        <h2 class="heading2">Main Program</h2>
+        <hr />
+        <div class="program">
+          <div class="pilot-training stacks">
+            <img class="icons" src="images/program1.png" alt="Pilot Training" />
+            <h2>Sessions</h2>
+            <p>
+              Engage in discussions, swap stories, and share encouragement.
+              Learn from companies that are leveraging technology to drive change and growth within their industries.
+
+            </p>
           </div>
 
-          <div class="event-date col-12">
-            <h3 class="text font-weight-bold mb-3">2022.09.22(THRU)~24(WED)</h3>
-            <p class="end">@ Ysterplaat Bowl in Milnerton</p>
+          <div class="tech stacks">
+            <img class="icons" src="images/program2.png" alt="techzone" />
+            <h2> Live Music</h2>
+            <p>
+              Engage in discussions, swap stories, and share encouragement.
+              Learn from companies that are leveraging technology to drive change and growth within their industries.
+
+            </p>
+          </div>
+
+          <div class="aircraft stacks">
+            <img class="icons" src="images/program3.png" alt="aircraftdisplay" />
+            <h2>  Expo Booths</h2>
+            <p>
+              Engage in discussions, swap stories, and share encouragement.
+                Learn from companies that are leveraging technology to drive change and growth within their industries.
+
+            </p>
+          </div>
+
+          <div class="mentorship stacks">
+            <img class="icons" src="images/program4.png" alt="mentorship" />
+            <h2>Networking Hub</h2>
+            <p>
+              Engage in discussions, swap stories, and share encouragement.
+                Learn from companies that are leveraging technology to drive change and growth within their industries.
+
+            </p>
+          </div>
+
+          <div class="forum stacks">
+            <img class="icons" src="images/program5.png" alt="forum" />
+            <h2>  Real Conversation</h2>
+            <p>
+              Engage in discussions, swap stories, and share encouragement.
+                Learn from companies that are leveraging technology to drive change and growth within their industries.
+
+            </p>
           </div>
         </div>
-      </section>
-
-      <!--main program section-->
-      <section class="container-fluid main-program text-white">
-        <div class="row pt-3 mb-5">
-          <div class="col-12">
-            <h3 class="text-center section-title">Main program</h3>
-            <hr class="hr-title">
-          </div>
+        <div class="buttons">
+          <button type="submit" class="register-btn">Register Now</button>
         </div>
-        <div class="row program justify-content-center">
-          <div class="col-12 col-md-2 pr-0 pl-0 program-block-parent">
-            <div class="program-block text-center row mb-5 p-4 bg-dark-light-custom">
-              <div class="col-sm-2 col-12 col-md-12 pr-0 pl-0">
-                <i class="fas fa-chalkboard-teacher text-white"></i>
-              </div>
-              <div class="col-sm-5 col-12 col-md-12 pr-0 pl-0 red section-subtitle">
-                Sessions
-              </div>
-              <div class="col-sm-5 col-12 col-md-12 pr-0 pl-0">
-                Engage in discussions, swap stories, and share encouragement.
-                Learn from companies that are leveraging technology to drive change and growth within their industries.
+      </div>
+    </section>
+    <div class="section-speakers-heading" id="featured">
+      <h2>Featured Speakers</h2>
+      <hr />
+      <div class="people" id="speakers"></div>
+    </div>
 
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-2 pr-0 pl-0 program-block-parent">
-            <div class="program-block text-center row mb-5 p-4 bg-dark-light-custom">
-              <div class="col-sm-2 col-12 col-md-12 pr-0 pl-0">
-                <i class="fas fa-chalkboard-teacher text-white"></i>
-              </div>
-              <div class="col-sm-5 col-12 col-md-12 pr-0 pl-0 red section-subtitle">
-                Live Music
-              </div>
-              <div class="col-sm-5 col-12 col-md-12 pr-0 pl-0">
-                Engage in discussions, swap stories, and share encouragement.
-                Learn from companies that are leveraging technology to drive change and growth within their industries.
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-2 pr-0 pl-0 program-block-parent">
-            <div class="program-block text-center row mb-5 p-4 bg-dark-light-custom">
-              <div class="col-sm-2 col-12 col-md-12 pr-0 pl-0">
-                <i class="far fa-comments text-white"></i>
-              </div>
-              <div class="col-sm-5 col-12 col-md-12 pr-0 pl-0 red section-subtitle">
-                Real Conversation
-              </div>
-              <div class="col-sm-5 col-12 col-md-12 pr-0 pl-0">
-                Engage in discussions, swap stories, and share encouragement.
-                Learn from companies that are leveraging technology to drive change and growth within their industries.
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-2 pr-0 pl-0 program-block-parent">
-            <div class="program-block text-center row mb-5 p-4 bg-dark-light-custom">
-              <div class="col-sm-2 col-12 col-md-12 pr-0 pl-0">
-                <i class="fas fa-laptop text-white"></i>
-              </div>
-              <div class="col-sm-5 col-12 col-md-12 pr-0 pl-0 red section-subtitle">
-                Expo Booths
-              </div>
-              <div class="col-sm-5 col-12 col-md-12 pr-0 pl-0">
-                Engage in discussions, swap stories, and share encouragement.
-                Learn from companies that are leveraging technology to drive change and growth within their industries.
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-2 pr-0 pl-0 program-block-parent">
-            <div class="program-block text-center row mb-5 p-4 bg-dark-light-custom">
-              <div class="col-sm-2 col-12 col-md-12 pr-0 pl-0">
-                <i class="fas fa-atom text-white"></i>
-              </div>
-              <div class="col-sm-5 col-12 col-md-12 pr-0 pl-0 red section-subtitle">
-                Networking Hub
-              </div>
-              <div class="col-sm-5 col-12 col-md-12 pr-0 pl-0">
-                Engage in discussions, swap stories, and share encouragement.
-                Learn from companies that are leveraging technology to drive change and growth within their industries.
-              </div>
-            </div>
-          </div>
-            <div class="row mb-5">
-              <div class="col-12 text-center">
-                <a href="#" class="text-white cta btn rounded-0 bg-red pr-5 pl-5 pt-4 pb-4">
-                  Find Out More
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+    <section class="partners-section" id="partners">
+      <h2 class="partners-heading"><strong>Partners</strong></h2>
+      <hr />
+      <div class="partners-flex">
+        <div class="partners-list">
+          <img class="partner-image" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google.png" alt="mozilla" />
+        </div>
+        <div class="partners-list">
+          <img class="partner-image" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Logo_NIKE.png" alt="Google" />
+        </div>
+        <div class="partners-list">
+          <img class="partner-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/640px-Amazon_Web_Services_Logo.svg.png" alt="Naver" />
+        </div>
+        <div class="partners-list">
+          <img class="partner-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ubisoft_logo.svg/640px-Ubisoft_logo.svg.png" alt="kakao" />
+        </div>
+        <div class="partners-list">
+          <img class="partner-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Sanofi_logo.svg/640px-Sanofi_logo.svg.png" alt="airbnb" />
+        </div>
+      </div>
+    </section>
 
-        <section class="container-fluid featured-speakers text-dark bg-white">
-          <div class="row pt-3 mb-5">
-            <div class="col-12">
-              <h3 class="text-center section-title">Featured speakers</h3>
-              <hr class="hr-title">
-            </div>
-          </div>
-          <div class="row speakers">
-            <div class="col-12 col-md-6">
-              <div class="row mb-5 p-4 bg-white">
-                <div class="col-3 speaker-block pr-0 pl-0">
-                  <img class="img-fluid rounded speaker-avatar" src="./images/pexels-cottonbro-studio-7805041.jpg" alt="Speaker">
-                </div>
-                <div class="col-9 speaker-block pr-0 pl-4">
-                  <h3 class="mb-1 section-title font-weight-bold">Athaliah Tauro</h3>
-                  <p class="red font-italic">Host</p>
-                  <hr class="hr-speakers ml-0 mb-3">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum dictum malesuada. Phasellus non mollis libero. </p>
-                </div>
-              </div>
-              </div>
-              <div class="col-12 col-md-6">
-                <div class="row mb-5 p-4 bg-white">
-                  <div class="col-3 speaker-block pr-0 pl-0">
-                    <img class="img-fluid rounded speaker-avatar" src="./images/pexels-antoni-shkraba-production-8374345.jpg" alt="Speaker">
-                  </div>
-                  <div class="col-9 speaker-block pr-0 pl-4">
-                    <h3 class="mb-1 section-title font-weight-bold">Yonela Shula</h3>
-                    <p class="red font-italic">Data & Analytics Officer</p>
-                    <hr class="hr-speakers ml-0 mb-3">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum dictum malesuada. Phasellus non mollis libero. </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6 d-none d-md-block">
-                <div class="row mb-5 p-4 bg-white">
-                <div class="col-3 speaker-block pr-0 pl-0">
-                  <img class="img-fluid rounded speaker-avatar" src="./images/pexels-muhammadtaha-ibrahim-3848184.jpg" alt="Speaker">
-                </div>
-                <div class="col-9 speaker-block pr-0 pl-4">
-                  <h3 class="mb-1 section-title font-weight-bold">Lila Kamo</h3>
-                  <p class="red font-italic">Chief Information Officer
-                    Gap</p>
-                  <hr class="hr-speakers ml-0 mb-3">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum dictum malesuada. Phasellus non mollis libero. </p>
-                </div>
-              </div>
-              </div>
-    
-              <div class="col-12 col-md-6 d-none d-md-block">
-                <div class="row mb-5 p-4 bg-white">
-                <div class="col-3 speaker-block pr-0 pl-0">
-                  <img class="img-fluid rounded speaker-avatar" src="./images/pexels-christina-morillo-1181686.jpg" alt="Speaker">
-                </div>
-                <div class="col-9 speaker-block pr-0 pl-4">
-                  <h3 class="mb-1 section-title font-weight-bold">Tammy Kido</h3>
-                  <p class="red font-italic">Director of Fire for Code</p>
-                  <hr class="hr-speakers ml-0 mb-3">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum dictum malesuada. Phasellus non mollis libero. </p>
-                </div>
-            </div>
-              </div>
-    
-              <div class="col-12 col-md-6">
-                <div class="row mb-5 p-4 bg-white">
-                <div class="col-3 speaker-block pr-0 pl-0">
-                  <img class="img-fluid rounded speaker-avatar" src="./images/pexels-nina-14487140.jpg" alt="Speaker">
-                </div>
-                <div class="col-9 speaker-block pr-0 pl-4">
-                  <h3 class="mb-1 section-title font-weight-bold">Rebecca Van De Wyk</h3>
-                  <p class="red font-italic">Managing Director,  Business Operations</p>
-                  <hr class="hr-speakers ml-0 mb-3">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum dictum malesuada. Phasellus non mollis libero. </p>
-                </div>
-              </div>
-              </div>
-              <div class="col-12 col-md-6">
-                <div class="row mb-5 p-4 bg-white">
-                <div class="col-3 speaker-block pr-0 pl-0">
-                  <img class="img-fluid rounded speaker-avatar " src="./images/pexels-andrea-piacquadio-774909.jpg"  alt="Speaker">
-                </div>
-                <div class="col-9 speaker-block pr-0 pl-4">
-                  <h3 class="mb-1 section-title font-weight-bold">Amaya Snyman</h3>
-                  <p class="red font-italic"> Product Officer</p>
-                  <hr class="hr-speakers ml-0 mb-3">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum dictum malesuada. Phasellus non mollis libero. </p>
-                </div>
-              </div>
-              </div>
-            </div>
-          </section>
-    
-          <section class="container-fluid partners-section text-white bg-dark-custom">
-            <div class="row pt-3 mb-3">
-              <div class="col-12">
-                <h3 class="text-center section-title">Sponsars</h3>
-                <hr class="hr-title">
-              </div>
-            </div>
-            <div class="partners">
-              <figure>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google.png" alt="Support Team">
-              </figure>
-              <figure>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Logo_NIKE.png" alt="Support Team">
-              </figure>
-              <figure>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/640px-Amazon_Web_Services_Logo.svg.png" alt="Support Team">
-              </figure>
-              <figure>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ubisoft_logo.svg/640px-Ubisoft_logo.svg.png" alt="Support Team">
-              </figure>
-              <figure>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Sanofi_logo.svg/640px-Sanofi_logo.svg.png" alt="Support Team">
-              </figure>
-            </div>
-          </section>
-    
-          <footer class="container-fluid p-4 bg-light">
-                <div class="row">
-                  <div class="col-6">
-                    <figure>
-                      <img class="img-fluid" src="./images/Women In Tech.png"  style="width: 100px;"  alt="Women in Tech">
-                    </figure>
-                  </div>
-                  <div class="col-6">
-                    <p>2022 Women in Tech <br>
-                    Some Rights Reserved </p>
-                  </div>
-                </div>
-              </footer>
-  
-    </body>
-    </html>
+    <footer>
+      <div class="f-styling">
+        <div class="my-logo">
+          <img class="img-fluid" src="./images/Women In Tech.png"  style="width: 100px;"  alt="Women in Tech">
+        </div>
+        <p class="copy-right">
+          2022 Women in Tech
+          <br />
+          Some Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
