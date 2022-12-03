@@ -31,8 +31,6 @@
 
 > This is a Capstone Project is based on an online website for a conference.
 
-**[your_project__name]** is a...
-
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML
