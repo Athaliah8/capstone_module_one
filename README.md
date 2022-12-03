@@ -15,22 +15,14 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -64,7 +56,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://athaliah8.github.io/capstone_module_one/index.html)
+- [Live Demo Link](https://athaliah8.github.io/capstone_module_one/)
 - [Presentation Link](https://www.loom.com/share/3537354ccef44960837636ae45c3bcf2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
